@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import br.alura.com.gerenciador.modelo.Banco;
 
-public class AlteraEmpresa {
+public class AlteraEmpresa  implements Acao {
 	
 	public String executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String nomeEmpresa = request.getParameter("nome");
